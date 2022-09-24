@@ -3,7 +3,9 @@ from webdriver_manager.chrome import ChromeDriverManager
 from selenium import webdriver
 import getpass
 
-def access_to_instageam():
+profile = 'instagram_auto_like'
+
+def access_to_instageam(profile):
     """seleniumの起動設定を行い、起動する。
     
     return:
